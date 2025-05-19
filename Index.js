@@ -45,7 +45,7 @@ class APILibrary {
   }
 }
 
-// UI Interaction
+//I think the problem is in here
 const api = new APILibrary("http://localhost:8080/https://jsonplaceholder.typicode.com");
 
 document.getElementById("send").addEventListener("click", async () => {
