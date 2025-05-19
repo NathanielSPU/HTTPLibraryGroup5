@@ -45,8 +45,8 @@ class APILibrary {
   }
 }
 
-// UI Interaction
-const api = new APILibrary("http://localhost:8080/https://jsonplaceholder.typicode.com");
+// I think the problem is here 
+const api = new APILibrary("https://api.allorigins.win/raw?url=https://jsonplaceholder.typicode.com");
 
 document.getElementById("send").addEventListener("click", async () => {
   const method = document.getElementById("method").value;
